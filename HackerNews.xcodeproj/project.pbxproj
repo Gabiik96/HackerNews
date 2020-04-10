@@ -16,6 +16,7 @@
 		424D230E244109DB00EC7C9B /* HackerNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424D230D244109DB00EC7C9B /* HackerNewsTests.swift */; };
 		424D2319244109DB00EC7C9B /* HackerNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424D2318244109DB00EC7C9B /* HackerNewsUITests.swift */; };
 		424D232824410DC000EC7C9B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424D232724410DC000EC7C9B /* NetworkManager.swift */; };
+		424D232A2441101900EC7C9B /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424D23292441101900EC7C9B /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		424D2318244109DB00EC7C9B /* HackerNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsUITests.swift; sourceTree = "<group>"; };
 		424D231A244109DB00EC7C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		424D232724410DC000EC7C9B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		424D23292441101900EC7C9B /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				424D232724410DC000EC7C9B /* NetworkManager.swift */,
+				424D23292441101900EC7C9B /* PostData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424D232A2441101900EC7C9B /* PostData.swift in Sources */,
 				424D232824410DC000EC7C9B /* NetworkManager.swift in Sources */,
 				424D22F7244109D900EC7C9B /* AppDelegate.swift in Sources */,
 				424D22F9244109D900EC7C9B /* SceneDelegate.swift in Sources */,
